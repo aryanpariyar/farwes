@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    font-family: 'Roboto', sans-serif !important;
+
+}
+a.navbar-brand{
+    color: #CCC4EC !important;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 900 !important;
+} 
+a.navbar-brand span{
+    color: #A9A2D7;
+    font-size: 24px;
+    /* font-family: 'Roboto', sans-serif; */
+} 
+.container-fluid a.nnav:hover{
+    color: #A9A2D7;
+    font-size: 24px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 900;
+}
+
+.container-fluid a.nnav span:hover{
+    color: #CCC4EC;
+    font-size: 24px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 900;
+}
+ul{
+    margin-right: 50px !important;
+}
+ul li {
+    margin-left: 20px;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link{
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    font-weight: bold;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #041140 !important;
+   
+}
+.active-effect{
+  
+    box-shadow: 6px 6px 6px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    /* border: 1px solid red; */
+
+}
+.dropdown .dropdown-menu{
+    background-color: #E5E5E5;
+}
+/* this is the hover effect (when we hover dropdown we can see the content of dropdown without clickon it */
+
+@media only screen and (min-width: 760px) {
+    
+    .dropdown:hover .dropdown-menu{
+       display: block;
+    }
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+    box-shadow: 6px 6px 6px -1px rgba(0, 0, 0, 0.15),
+                -5px -3px 10px 10px rgba(255, 255, 255, 0.4),
+                -6px 16px 10px -1px rgba(255, 255, 255, 0.3),
+                6px 6px 6px -10px rgba(255, 255, 255, 0.25);
+}

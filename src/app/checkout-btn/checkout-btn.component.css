@@ -1,0 +1,21 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+button.btn{
+   
+    padding: 10px 20px;
+    background: #E4E4E4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: #041140;
+
+                
+}
+button.btn i.bi-caret-right-fill{
+   
+    color: #041140;
+    margin-left: 20px;
+                
+}

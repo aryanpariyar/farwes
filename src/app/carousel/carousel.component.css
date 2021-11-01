@@ -1,0 +1,21 @@
+.carousel-indicators button{
+    /* display: inline-block; */
+    width: 10px !important;
+    height: 10px !important;
+    /* margin: 4px; */
+    text-indent: 0;
+    z-index: 1;
+    cursor: pointer;
+    /* border: none; */
+    border-radius: 50% !important;
+    background-color: #fff;
+    box-shadow: 6px 6px 6px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);  
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* margin: 4px; */
+    background-color: #041140;
+}
